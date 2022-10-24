@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/green-poker-table-felt-background-picture-id140020812?k=20&m=140020812&s=170667a&w=0&h=WFXJz0PilSnGCjMC2JIpXU_G_kE2fugW0QvjgqL-rYw=");
+    height: 100%;
+    color: white;
+    font-family: 'Alkalami';                    
+}
+
+.card{
+    display: block;
+    background: linear-gradient(to top right, #0f3500, #0f2e00);
+}
+
+
+.button-62 {
+  background: linear-gradient(to bottom right, #081b00, #0e2c00);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .02rem rgba(0, 0, 0, 0.2), -.125rem -.125rem 1rem rgba(0,0,0, 0.2), .125rem .125rem 1rem rgba(186, 255, 26, 0.2);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .02rem rgba(0, 0, 0, 0.2), -.125rem -.125rem 1rem rgba(0, 0, 0, 0.2), .125rem .125rem 1rem rgba(179, 255, 0, 0.2);
+}
+
+.button-62:disabled {
+  background-color: #333333;
+}
